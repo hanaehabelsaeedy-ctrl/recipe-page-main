@@ -1,0 +1,70 @@
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color:#f3e5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+ h1,h2 {
+        font-family: 'Young Serif', serif;
+}
+
+.image{
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 660px;
+        height: 200px;
+        display: block;
+}
+
+ol li::marker{
+    color: brown;
+    font-weight: bold;
+}
+
+ol{
+    list-style-position: outside;
+}
+
+ol li{
+    padding-left: 15px;
+}
+
+ul li::marker{
+    color: brown;
+    
+}
+
+ul{
+    list-style-position: outside;
+}
+
+ul li{
+    padding-left: 15px;
+}
+
+.divv{
+    background-color: #fff7fc;
+    border-radius: 10px;
+    width: 650px;
+    padding: 10px;
+}
+
+.card{
+    background-color: white;
+    width: 670px;
+    height: auto;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 20px;
+}
+
+
+
